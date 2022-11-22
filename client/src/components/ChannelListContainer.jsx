@@ -24,13 +24,29 @@ const SideBar = () => (
 )
 
 
+const CompanyHeader = () => (
+  <div className="channel-list__header">
+    <p className="channel-list__header__text">
+      Medical Pager
+    </p>
+  </div>
+
+)
+
+
+
+
 
 const channelListContainer = () => {
   return (
     <>
       <SideBar/>
+      <div className="channel-list__list__wrapper">
+        <CompanyHeader/>
+        <ChannelSearch/>
+      </div>
     </>
-  )
+  );
 }
 
 export default channelListContainer
