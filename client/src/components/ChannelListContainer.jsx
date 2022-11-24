@@ -2,7 +2,7 @@ import React from 'react';
 import { ChannelList, useChatContext } from 'stream-chat-react';
 import { ChannelSearch, TeamChannelList, TeamChannelPreview } from './';
 import Cookies from 'universal-cookie'; 
-
+import axios from 'axios';
 import HospitalIcon from '../assets/hospital1.png';
 import LogoutIcon from '../assets/logout.png';
 
